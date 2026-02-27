@@ -86,3 +86,4 @@ calgen/
 - **Live preview**: Yes - CalendarPreview renders in the browser and updates as the user changes month/year/start day
 - **Week start day**: Defaults to Sunday; user can switch to Monday via a picker
 - **Notes space**: Each day cell includes room for ~2 lines of handwritten notes (light ruled lines in the PDF)
+- **User login**: No authentication for v1. The app is stateless — no user data to persist. Auth could be revisited if features like saved calendars or custom events are added later.
