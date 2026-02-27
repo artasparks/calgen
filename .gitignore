@@ -2,3 +2,15 @@
 .claude/*
 !.claude/skills/
 !.claude/settings.json
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Generated files
+*.pdf
+
+# Vite cache
+.vite/
